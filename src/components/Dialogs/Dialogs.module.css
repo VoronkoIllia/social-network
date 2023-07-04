@@ -1,0 +1,16 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    color: black;
+    background: rgb(18, 227, 242);
+    height: 100%;
+    width: 100%;
+}
+
+.contacts{
+    border-right: 2px solid rgb(64, 62, 62);
+
+}
+.messages{
+    padding:0;
+}

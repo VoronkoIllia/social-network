@@ -1,0 +1,23 @@
+.wrapper{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    gap: 5px;
+}
+.header{
+    background-color: green;
+    grid-area: h;
+}
+.photo{
+    background-color: cornflowerblue;
+    grid-area: photo;
+    height: 200px;
+}
+.bio{
+    background: darkgoldenrod;
+    grid-area: bio;
+    height: 200px;
+   
+}

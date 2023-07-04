@@ -1,0 +1,22 @@
+.wrapper {
+  background: cyan;
+  grid-area: w;
+  width: 100%;
+}
+.footer {
+  width: 100%;
+  grid-area: f;
+  background-color: darkgreen;
+}
+.App {
+  display: grid;
+  grid-template-rows: 60px auto 1fr;
+  grid-template-columns: auto 1fr;
+  grid-template-areas:
+    "h h"
+    "s w"
+    "f f";
+  margin: auto;
+  padding: 0;
+  width: 1200px;
+}

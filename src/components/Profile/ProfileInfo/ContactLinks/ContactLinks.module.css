@@ -1,0 +1,11 @@
+.contactLinks {
+  margin-left: 20px;
+  list-style: none;
+  display: block;
+}
+.contactLinkItem:nth-child(1) {
+  font-weight: bold;
+}
+.contactLinkItem {
+  display: inline;
+}

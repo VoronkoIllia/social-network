@@ -1,0 +1,8 @@
+.inputBox {
+  display: inline;
+  width: 50%;
+  border-radius: 8px;
+}
+.inputBox:focus {
+  border: solid 4px rgb(28, 130, 254);
+}

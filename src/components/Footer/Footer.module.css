@@ -1,0 +1,8 @@
+.footer{
+    background: #1bc38b;
+    grid-area: f;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}

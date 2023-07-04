@@ -1,0 +1,42 @@
+.wrapper{
+    position:relative;
+    top:300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap:5px;
+}
+.wrapper img{
+    position: relative;
+    width: 50px;
+    border-radius:50%;
+    border: none;
+    bottom: 10px;
+}
+.msg{
+    background-color:#211c1c ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-width: 150px;
+    min-height: 40px;
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;
+    gap: 5px;
+}
+.name{
+    color: rgb(255, 200, 1);
+    padding: 0;
+}
+.text{
+    max-width: 300px;
+    display: flex;
+    color:white;
+    padding: 0;
+    flex-wrap:wrap;
+}
+.name, .text{
+    margin-left: 7px;
+}

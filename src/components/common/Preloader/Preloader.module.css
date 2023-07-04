@@ -1,0 +1,12 @@
+.preload {
+  width: 200px;
+  animation: rotate 2s infinite;
+}
+@keyframes rotate {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}

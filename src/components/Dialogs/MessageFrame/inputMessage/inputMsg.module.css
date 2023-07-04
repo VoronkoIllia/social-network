@@ -1,0 +1,21 @@
+.wrapper {
+  padding: 5px 10px 5px 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.wrapper button {
+  text-align: center;
+  background: green;
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 130px;
+  height: 40px;
+}
+.wrapper textarea {
+  flex: 1 1 auto;
+  min-height: 40px;
+  max-width: auto;
+}

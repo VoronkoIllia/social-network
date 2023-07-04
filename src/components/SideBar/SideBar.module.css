@@ -1,0 +1,43 @@
+.container{
+    grid-area: s;
+    background-color: blueviolet;
+}
+.wrapper{
+    position: sticky;
+    grid-area: s;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px 0 50px 0;
+}
+.wrapper img{
+    width: 120px;
+    padding: 0 20px 0 20px;
+    
+}
+.wrapper img:hover{
+    animation: spin 7s linear infinite;
+}
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+        filter: brightness(100%);
+    }
+    /* 25%{
+        transform: rotate(90deg);
+    } */
+    50%{
+        transform: rotate(180deg);
+        filter: brightness(40%);   
+    }
+    /* 75%{
+        transform: rotate(270deg);
+    } */
+    100%{
+        transform: rotate(360deg);
+        filter: brightness(100%);
+    }
+}

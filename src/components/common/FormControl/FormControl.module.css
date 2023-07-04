@@ -1,0 +1,23 @@
+.formControl.error input,
+.formControl.error textarea {
+  border: solid red 2px;
+}
+.formControl textarea {
+  display: inline;
+  flex: 1 1 auto;
+  width: 100%;
+  max-width: 100%;
+}
+
+.formControl.error span {
+  color: red;
+}
+.formControl {
+  flex: 1 1 auto;
+  min-width: auto;
+  display: flex;
+  flex-direction: column;
+}
+.formControl.checkbox {
+  display: inline;
+}

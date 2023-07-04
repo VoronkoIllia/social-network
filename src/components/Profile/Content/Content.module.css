@@ -1,0 +1,7 @@
+.content{
+    border: 3px solid darkred;
+    background-color: chartreuse;
+    grid-area: c;
+    /* height: auto;
+    width: 100%; */
+}

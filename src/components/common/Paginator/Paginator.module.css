@@ -1,0 +1,20 @@
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.pageBarButton{
+    border: solid 1px rgb(190, 190, 190);
+    background-color: white;
+    min-width: 20px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+.selected{
+    background-color: rgb(227, 227, 227);
+    font-weight: bold;
+}
+.pageBarButton:hover{
+    background-color: rgb(227, 227, 227);
+}

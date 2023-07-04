@@ -1,0 +1,18 @@
+.post{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px 0px 0 10px;
+    gap:20px;
+    flex-wrap:wrap;
+    border-top: 1px solid gray;
+    /* width: 100%; */
+}
+.post img{
+    width: 50px;
+    border-radius:50%;
+}
+.post p{
+    width: 400px;
+}
